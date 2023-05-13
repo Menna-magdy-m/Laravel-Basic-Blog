@@ -7,19 +7,23 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-# Simple Laravel Blog made in Laravel 7
+# Laravel Basic Blog made in Multilanguage 
+
+## Description
+
+Laravel basic project that offer creating multilanguage Posts and Categories using Laravel
+
 
 ## Admin Login Info
 
-email: admin@laravelproject.com
-password: admin
+email: admin@admin.com
+password: 123456789
 
 
 ## Steps for Installtion
 
 ```
-git clone https://github.com/sanz/simple-larablog.git simple-larablog
-cd simple-larablog
+git clone https://github.com/Menna-magdy-m/Laravel-Basic-Blog.git
 cp .env.example .env
 
 // Then set database credentials in .env file
@@ -29,8 +33,3 @@ php artisan key:generate
 php artisan migrate
 php artisan db:seed
 ```
-## Author
-
-- [Sanish Gurung](https://sanishgurung.com.np)
-
-Contact me, if you need any help.
