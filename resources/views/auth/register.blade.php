@@ -60,7 +60,7 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
 
     
-        <p class="mt-5 mb-3 text-muted">© Simple Larablog {{ now()->year}}</p>
+        <p class="mt-5 mb-3 text-muted">© Laravel Basic Blog {{ now()->year}}</p>
         <p>Already have an account? <a href="{{ route('login') }}">Login here</a></p>
     </form>
 @endsection

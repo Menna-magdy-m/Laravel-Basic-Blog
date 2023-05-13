@@ -37,7 +37,7 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 
     
-        <p class="mt-5 mb-3 text-muted">© Simple Larablog {{ now()->year}}</p>
+        <p class="mt-5 mb-3 text-muted">© Laravel Basic Blog {{ now()->year}}</p>
         <p>New to Larablog? <a href="{{ route('register') }}">Create account</a></p>
     </form>
 @endsection
